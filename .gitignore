@@ -1,0 +1,17 @@
+# compiled output
+/dist
+/docs
+
+# tooling artifacts
+
+
+# dependencies
+/node_modules
+
+# secret stuff
+*.env
+
+# IDE
+.vscode/settings.json
+.history/*
+

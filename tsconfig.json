@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "outDir": "./dist",
+        "inlineSourceMap": true,
+        "lib": [
+            "ES2019.Array"
+        ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es6",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "resolveJsonModule": true,
+        "strict": true,
+        "paths": {
+            "@app": [
+                "app/app.ts"
+            ],
+            "@server": [
+                "app/bin/www.ts"
+            ],
+        }
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "typedocOptions": {
+        "mode": "modules",
+        "out": "docs",
+        "theme": "default",
+        "hideGenerator": true,
+        "name": "ts boiler plate",
+        "exclude": [
+            "**/test/**"
+        ]
+    }
+}
